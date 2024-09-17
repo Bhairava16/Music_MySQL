@@ -29,6 +29,6 @@ The primary goal of this project is to examine the music playlist dataset using 
 
 ## Database Schema
 
-![Database Schema](Music/MusicDatabaseSchema.png)
+![Database Schema](Music_MySql/eer_diagram.pdf)
 
 
