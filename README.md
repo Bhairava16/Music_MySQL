@@ -29,17 +29,6 @@ The primary goal of this project is to examine the music playlist dataset using 
 
 ## Database Schema
 
-![Database Schema](MusicDatabaseSchema.png)
+![Database Schema](Music/MusicDatabaseSchema.png)
 
-*Include a visual of the database schema here. Make sure to upload the image of the schema in your repository.*
 
-## Example Queries
-
-### 1. Get the top 5 most played songs:
-```sql
-SELECT track_name, COUNT(*) AS play_count
-FROM playlists
-JOIN tracks ON playlists.track_id = tracks.track_id
-GROUP BY track_name
-ORDER BY play_count DESC
-LIMIT 5;
